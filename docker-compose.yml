@@ -1,0 +1,7 @@
+version: '3'
+
+services:
+  fakeapi:
+    image: fakeapi
+    ports:
+      - "8080:8080"
